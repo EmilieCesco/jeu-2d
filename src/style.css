@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+	overflow: hidden;
+}
+#myCanvas {
+	width: 100vw;
+	height: 100vh;
+	-ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+}
